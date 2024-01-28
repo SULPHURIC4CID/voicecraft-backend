@@ -20,8 +20,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/login")
 public class OAuthController {
 
-	private static final String CLIENT_ID = "831061238928-0ht7vfarq5fkig9045daljdp03me6cbr.apps.googleusercontent.com";
-	private static final String CLIENT_SECRET = "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";
+	private static final String CLIENT_ID = "";
+	private static final String CLIENT_SECRET = "";
 	private static final String REDIRECT_URI = "http://localhost:3000";
 	private static final String GRANT_TYPE ="authorization_code";
 	
