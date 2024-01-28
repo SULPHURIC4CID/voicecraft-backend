@@ -157,7 +157,7 @@ public class CredentialsController {
 				
 		//as of now the destination directory is the same as the source directory of the react application.
 		//Need to change this to a DB in production
-		File destinationDirectory = new File("D:\\Dev\\Skyvera Hackathon\\text-to-voice\\public\\downloaded-audio");
+		File destinationDirectory = new File("D:\\Dev\\Skyvera Hackathon\\voicecraft-master\\voicecraft-master\\public\\downloaded-audio");
 
 	    try {
 	      Path destinationPath = Paths.get(destinationDirectory.getAbsolutePath(), newFileName);
